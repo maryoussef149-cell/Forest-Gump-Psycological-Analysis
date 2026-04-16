@@ -165,10 +165,10 @@
             {/* top half */}
             <div style={{height:isMobile?35:52, background:ch.swatchColor, marginBottom:isMobile?5:8}}/>
             <div style={{padding:`0 ${isMobile?6:9}px`}}>
-              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:500,fontSize:isMobile?6:8,color:"#888",letterSpacing:"0.1em",textTransform:"uppercase",lineHeight:1.2,marginBottom:1}}>{ch.phase}</div>
-              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:800,fontSize:isMobile?8:11,color:"#111",lineHeight:1.1,marginBottom:2}}>{ch.title}</div>
-              <div style={{fontFamily:"'Parkinsans',sans-serif",fontSize:isMobile?7:9,color:"#666",lineHeight:1.1,marginBottom:1}}>{ch.swatchHex}</div>
-              <div style={{fontFamily:"'Parkinsans',sans-serif",fontStyle:"italic",fontWeight:300,fontSize:isMobile?7:9,color:"#888",lineHeight:1.2}}>{ch.theme}</div>
+              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:500,fontSize:isMobile?7:8,color:"#888",letterSpacing:"0.1em",textTransform:"uppercase",lineHeight:1.2,marginBottom:1}}>{ch.phase}</div>
+              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:800,fontSize:isMobile?10:11,color:"#111",lineHeight:1.1,marginBottom:2}}>{ch.title}</div>
+              <div style={{fontFamily:"'Parkinsans',sans-serif",fontSize:isMobile?8:9,color:"#666",lineHeight:1.1,marginBottom:1}}>{ch.swatchHex}</div>
+              <div style={{fontFamily:"'Parkinsans',sans-serif",fontStyle:"italic",fontWeight:300,fontSize:isMobile?8:9,color:"#888",lineHeight:1.2}}>{ch.theme}</div>
             </div>
           </div>
         );
@@ -233,16 +233,16 @@
               <ChapterImage ch={ch} vis={imgVis}/>
             </div>
             <div ref={c1Ref} style={{...card(ch.card13Bg),...rv(c1Vis,"0.06s")}}>
-              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:700,fontSize:isMobile?13:15,color:ch.textOnLight,marginBottom:isMobile?6:8,lineHeight:1.25}}>Forrest felt</div>
-              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:400,fontSize:isMobile?12:13.5,color:ch.textOnLight,lineHeight:1.6,fontStyle:"italic"}}>{ch.felt}</div>
+              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:700,fontSize:isMobile?16:15,color:ch.textOnLight,marginBottom:isMobile?6:8,lineHeight:1.25}}>Forrest felt</div>
+              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:400,fontSize:isMobile?14:13.5,color:ch.textOnLight,lineHeight:1.6,fontStyle:"italic"}}>{ch.felt}</div>
             </div>
             <div ref={c2Ref} style={{...card(ch.card2Bg),...rv(c2Vis,"0.13s")}}>
-              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:700,fontSize:isMobile?13:15,color:ch.textOnDark,marginBottom:isMobile?6:8,lineHeight:1.25}}>What most of us feel instead</div>
-              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:400,fontSize:isMobile?12:13.5,color:ch.textOnDarkBody,lineHeight:1.6}}>{ch.most}</div>
+              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:700,fontSize:isMobile?16:15,color:ch.textOnDark,marginBottom:isMobile?6:8,lineHeight:1.25}}>What most of us feel instead</div>
+              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:400,fontSize:isMobile?14:13.5,color:ch.textOnDarkBody,lineHeight:1.6}}>{ch.most}</div>
             </div>
             <div ref={c3Ref} style={{...card(ch.card13Bg),marginBottom:0,...rv(c3Vis,"0.20s")}}>
-              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:700,fontSize:isMobile?13:15,color:ch.textOnLight,marginBottom:isMobile?6:8,lineHeight:1.25}}>How to get through it</div>
-              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:400,fontSize:isMobile?12:13.5,color:ch.textOnLight,lineHeight:1.6}}>{ch.how}</div>
+              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:700,fontSize:isMobile?16:15,color:ch.textOnLight,marginBottom:isMobile?6:8,lineHeight:1.25}}>How to get through it</div>
+              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:400,fontSize:isMobile?14:13.5,color:ch.textOnLight,lineHeight:1.6}}>{ch.how}</div>
             </div>
           </section>
         );
@@ -324,13 +324,13 @@
           <section style={{minHeight:"100svh",background:"#1A1408",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",padding:isMobile?"60px 20px 50px":"80px 28px 64px",position:"relative",overflow:"hidden"}}>
             <div style={{position:"absolute",width:isMobile?280:480,height:isMobile?280:480,borderRadius:"50%",background:"radial-gradient(circle,rgba(220,180,60,.06) 0%,transparent 72%)",top:"45%",left:"50%",transform:"translate(-50%,-50%)",animation:"glowPulse 7s ease-in-out infinite",pointerEvents:"none"}}/>
             <div style={{position:"relative",zIndex:1,textAlign:"center",maxWidth:isMobile?280:340,opacity:up?1:0,transform:up?"translateY(0)":"translateY(16px)",transition:"all .9s cubic-bezier(.22,1,.36,1)"}}>
-              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:400,fontSize:isMobile?8:10,letterSpacing:"0.26em",textTransform:"uppercase",color:"#C8A040",opacity:.65,marginBottom:isMobile?14:20}}>A psychology of ordinary life</div>
-              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:800,fontSize:isMobile?"clamp(36px,12vw,52px)":"clamp(54px,15vw,84px)",color:"#F5EDD5",lineHeight:.92,letterSpacing:"-.03em",marginBottom:6}}>Forrest</div>
-              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:300,fontSize:isMobile?"clamp(36px,12vw,52px)":"clamp(54px,15vw,84px)",color:"#C8A040",lineHeight:.92,letterSpacing:"-.02em",marginBottom:isMobile?24:34,fontStyle:"italic"}}>Gump</div>
-              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:400,fontSize:isMobile?13:15,color:"#9A8050",lineHeight:isMobile?1.6:1.74,marginBottom:isMobile?30:40}}>Nine moments from one fictional life and what they reveal about the emotional experiences we all share but rarely name.</div>
+              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:400,fontSize:isMobile?10:10,letterSpacing:"0.26em",textTransform:"uppercase",color:"#C8A040",opacity:.65,marginBottom:isMobile?14:20}}>A psychology of ordinary life</div>
+              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:800,fontSize:isMobile?"clamp(42px,12vw,52px)":"clamp(54px,15vw,84px)",color:"#F5EDD5",lineHeight:.92,letterSpacing:"-.03em",marginBottom:6}}>Forrest</div>
+              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:300,fontSize:isMobile?"clamp(42px,12vw,52px)":"clamp(54px,15vw,84px)",color:"#C8A040",lineHeight:.92,letterSpacing:"-.02em",marginBottom:isMobile?24:34,fontStyle:"italic"}}>Gump</div>
+              <div style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:400,fontSize:isMobile?15:15,color:"#9A8050",lineHeight:isMobile?1.6:1.74,marginBottom:isMobile?30:40}}>Nine moments from one fictional life and what they reveal about the emotional experiences we all share but rarely name.</div>
               <div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:8,animation:"scrollNudge 2.4s ease-in-out infinite"}}>
                 <div style={{width:isMobile?16:24,height:1,background:"rgba(200,160,64,.35)"}}/>
-                <span style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:400,fontSize:isMobile?8:10,letterSpacing:"0.22em",color:"#C8A040",opacity:.45,textTransform:"uppercase"}}>scroll</span>
+                <span style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:400,fontSize:isMobile?10:10,letterSpacing:"0.22em",color:"#C8A040",opacity:.45,textTransform:"uppercase"}}>scroll</span>
                 <div style={{width:isMobile?16:24,height:1,background:"rgba(200,160,64,.35)"}}/>
               </div>
             </div>
@@ -373,8 +373,8 @@
               }}>🪶</div>
             </div>
             <div ref={textRef} style={{opacity:textVis?1:0,transform:textVis?"translateY(0)":"translateY(12px)",transition:"opacity .7s ease .3s,transform .7s ease .3s"}}>
-              <p style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:300,fontStyle:"italic",fontSize:isMobile?14:16,color:"#6A5832",maxWidth:isMobile?280:320,margin:isMobile?"0 auto 10px":"0 auto 14px",lineHeight:1.6}}>"Life is like a box of chocolates. You never know what you're gonna get."</p>
-              <div style={{fontFamily:"'Parkinsans',sans-serif",fontSize:isMobile?8:9.5,letterSpacing:"0.22em",color:"#38280E",textTransform:"uppercase"}}>Forrest Gump · 1994 · Robert Zemeckis</div>
+              <p style={{fontFamily:"'Parkinsans',sans-serif",fontWeight:300,fontStyle:"italic",fontSize:isMobile?16:16,color:"#6A5832",maxWidth:isMobile?280:320,margin:isMobile?"0 auto 10px":"0 auto 14px",lineHeight:1.6}}>"Life is like a box of chocolates. You never know what you're gonna get."</p>
+              <div style={{fontFamily:"'Parkinsans',sans-serif",fontSize:isMobile?9:9.5,letterSpacing:"0.22em",color:"#38280E",textTransform:"uppercase"}}>Forrest Gump · 1994 · Robert Zemeckis</div>
             </div>
           </footer>
         );
