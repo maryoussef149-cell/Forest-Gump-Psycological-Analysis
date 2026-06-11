@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 .git
 .github
+=======
+.git
+.github
+>>>>>>> b10b9fd0cfd941e3020af41f83c8a4c12de937b9
 *.md

@@ -41,4 +41,8 @@ jobs:
               --restart always \
               -p 80:80 \
               ${{ secrets.DOCKER_USERNAME }}/forrest-gump-app:latest
+<<<<<<< HEAD
             echo "Deployed!"
+=======
+            echo "Deployed!"
+>>>>>>> b10b9fd0cfd941e3020af41f83c8a4c12de937b9
